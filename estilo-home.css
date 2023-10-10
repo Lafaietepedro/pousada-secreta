@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 2000px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* ---------------------INICIO SEÇÃO TOPO --------------------*/
+.topo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    height: 100px;
+    padding: 10px;
+}
+
+.logo a {
+    font-size: 24px;
+}
+
+.logo span {
+    color: #6898d3;
+}
+
+.topo a {
+    color: #3d4142;
+}
+
+a {
+    text-decoration: none;
+}
+
+.links-topo {
+    display: flex;
+    justify-content: space-around;
+    width:  300px;
+}
+
+.links-topo a{
+    font-size: 20px;
+}
+/* FIM SEÇÃO TOPO*/
+
+/* ---------------------INICIO SEÇÃO BANNER --------------------*/
+.banner {
+    background-image: url(./imagens/img-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1903px;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-logo {
+    width: 25%;
+    height: 200px;
+    background-color: #49997c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    border: 1px solid #fff;
+    opacity: 90%;
+    gap: 20px;
+}
+
+.banner-logo h1 {
+    font-size: 50px;
+    padding-top: 40px;
+}
+
+.banner-logo p {
+    font-size: 20px;
+}
+
+.banner-logo h1, .banner-logo p {
+    color: #fff;
+}
+/* FIM SEÇÃO BANNER*/
+
+/* ---------------------INICIO SEÇÃO BOAS VINDAS --------------------*/
+.boas-vindas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.boas-vindas h2, .boas-vindas p {
+    text-align: center;
+    padding: 10px;
+}
+
+.boas-vindas h2 {
+    font-size: 46px;
+    font-weight: normal;
+    padding-top: 40px;
+}
+
+.boas-vindas p {
+    font-size: 16px;
+}
+/* FIM SEÇÃO BOAS VINDAS*/
+
+/* ---------------------INICIO SEÇÃO IMAGENS QUARTOS --------------------*/
+.imagens-quartos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.card-quartos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.img-quartos {
+    width: 70%;
+    height: 300px;
+    padding: 0px;
+}
+
+.img-quartos img {
+    width: 100%;
+}
+
+.texto-card a {
+    font-size: 24px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid green;
+}
+/* FIM SEÇÃO IMAGENS QUARTOS*/
+
+/* ---------------------INICIO SEÇÃO ROTA --------------------*/
+.rota {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 90px 0;
+}
+
+.rota h2 {
+    font-size: 44px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+.rota p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+/* FIM SEÇÃO ROTA*/
+
+/* ---------------------INICIO SEÇÃO SOBRE --------------------*/
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.sobre h2 {
+    font-size: 44px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+/* FIM SEÇÃO SOBRE*/
+
+/* ---------------------INICIO SEÇÃO SOBRE-GERAL --------------------*/
+
+.sobre-geral {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 150px;
+}
+
+.container-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.container-img img{
+    width: 150px;
+    height: 100px;
+}
+/* FIM SEÇÃO SOBRE-GERAL */
+
+/* ---------------------INICIO SEÇÃO RODAPE -------------------- */
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 120px;
+    background-color: #49997c;
+    border-bottom: 2px solid #348165;
+}
+
+.rodape h4 {
+    font-size: 30px;
+}
+
+.rodape-contatos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.rodape a, .rodape p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.autoria {
+    background-color: #49997c;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.autoria p {
+    font-size: 16px;
+    color: #fff;
+}
+/* FIM SEÇÃO RODAPE */

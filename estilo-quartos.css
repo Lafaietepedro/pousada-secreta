@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 2000px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* ---------------------INICIO SEÇÃO TOPO --------------------*/
+.topo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    height: 100px;
+    padding: 10px;
+}
+
+.logo a {
+    font-size: 24px;
+}
+
+.logo span {
+    color: #6898d3;
+}
+
+.topo a {
+    color: #3d4142;
+}
+
+a {
+    text-decoration: none;
+}
+
+.links-topo {
+    display: flex;
+    justify-content: space-around;
+    width:  300px;
+}
+
+.links-topo a{
+    font-size: 20px;
+}
+
+/* FIM SEÇÃO TOPO*/
+
+/* ---------------------INICIO SEÇÃO BANNER --------------------*/
+.banner {
+    height: 200px;
+    background-image: url(./imagens/img-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+/* FIM SEÇÃO BANNER*/
+
+/* ---------------------INICIO SEÇÃO SOBRE QUARTOS SOLTEIRO --------------------*/
+.sobre-quartos-solteiro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sobre-quartos-solteiro, .sobre-quartos-casal, .sobre-quartos-familia {
+    margin-bottom: 60px;
+}
+
+.sobre-quartos-solteiro img {
+    max-width: 30%;
+    height: 300px;
+}
+
+.img-quartos-solteiro {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.quartos-solteiro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.quartos-solteiro h1{
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 40px;
+}
+
+.info-quartos-solteiro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.lista-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 150px;
+}
+/* FIM SEÇÃO SOBRE QUARTOS SOLTEIRO*/
+
+/* ---------------------INICIO SEÇÃO SOBRE QUARTOS CASAL --------------------*/
+.sobre-quartos-casal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sobre-quartos-casal img {
+    max-width: 30%;
+    height: 300px;
+}
+
+.img-quartos-casal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.quartos-casal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.quartos-casal h1{
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 40px;
+}
+
+.info-quartos-casal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+}
+/* FIM SEÇÃO SOBRE QUARTOS CASAL*/
+
+/* ---------------------INICIO SEÇÃO SOBRE QUARTOS FAMILIA --------------------*/
+.sobre-quartos-familia {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sobre-quartos-familia img {
+    max-width: 30%;
+    height: 300px;
+}
+
+.img-quartos-familia {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.quartos-familia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.quartos-familia h1{
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 40px;
+}
+
+.info-quartos-familia {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+/* FIM SEÇÃO SOBRE QUARTOS FAMILIA*/
+
+/* ---------------------INICIO SEÇÃO RODAPE -------------------- */
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 120px;
+    background-color: #49997c;
+    border-bottom: 2px solid #348165;
+}
+
+.rodape h4 {
+    font-size: 30px;
+}
+
+.rodape-contatos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.rodape a, .rodape p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.autoria {
+    background-color: #49997c;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.autoria p {
+    font-size: 16px;
+    color: #fff;
+}
+
+/* FIM SEÇÃO RODAPE */
